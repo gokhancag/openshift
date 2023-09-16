@@ -10,5 +10,9 @@ def main():
 def hello():
     return 'iyiyim, sen nasilsin?'
 
+@app.route('/hello')
+def hello():
+    return 'hello from OpenShift..'
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
