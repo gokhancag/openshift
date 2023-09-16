@@ -7,7 +7,7 @@ def main():
     return "Selamlar!"
 
 @app.route('/nasilsin')
-def hello():
+def nasilsin():
     return 'iyiyim, sen nasilsin?'
 
 @app.route('/hello')
