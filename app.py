@@ -6,9 +6,9 @@ app = Flask(__name__)
 def main():
     return "Selam!"
 
-@app.route('/how are you')
+@app.route('/nasilsin')
 def hello():
-    return 'I am good, how about you?'
+    return 'iyiyim, sen nasilsin?'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
