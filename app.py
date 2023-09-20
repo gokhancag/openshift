@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Selamlar OpenShift!"
+    return "Selamlar OpenShift - Siemens!"
 
 @app.route('/nasilsin')
 def nasilsin():
